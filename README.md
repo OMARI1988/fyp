@@ -16,10 +16,14 @@ Muhannad Al-omari
  *** Baxter won't move, so don't worry ***
 
 To switch baxter ON, 
+
 1- connect the power cable to the back side of baxter (make sure the power
    outlet can handle more than 6 Amps)
+   
 2- Press the White power button in the back side of baxter.
+
 * Baxter is now on, it won't move so don't worry about switching it ON
+
 * Wait for the screen (Baxter face) to show Rethink Robotics logo
 
 
