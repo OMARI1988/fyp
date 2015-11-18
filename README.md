@@ -34,18 +34,25 @@ To switch baxter ON,
  *** Baxter won't move, so don't worry ***
  
 To connect baxter to your laptop,
+
 1- connect the etherner cable to your laptop, connect the other end to the 
    back of baxter.
+   
 *** after connecting the cable you should see that Robotics network is now
     connected.
+    
 2- open a terminal on your laptop (ctrl+alt+t = will open a new terminal window)
+
 3- you can connect as many terminal windows to baxter as you want, 
 
 --- to connect a window in terminal to baxter
+
     1- cd /ros_ws
+    
     2- ./baxter.sh
     
 --- to open a new window in terminal 
+
     1- ctrl+shift+t
 
 
