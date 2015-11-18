@@ -45,15 +45,15 @@ To connect baxter to your laptop,
 
 3- you can connect as many terminal windows to baxter as you want, 
 
---- to connect a window in terminal to baxter
+to connect a window in terminal to baxter
 
-    1- cd /ros_ws
+    cd /ros_ws
     
-    2- ./baxter.sh
+    ./baxter.sh
     
---- to open a new window in terminal 
+to open a new window in terminal 
 
-    1- ctrl+shift+t
+    ctrl+shift+t
 
 
 ################################################
@@ -64,13 +64,13 @@ To connect baxter to your laptop,
  
 In a window connected to Baxter,
  
---- to untuck baxter's arms (move the arms in front of baxter)
+to untuck baxter's arms (move the arms in front of baxter)
 
-    1- rosrun baxter_tool tuck_arms.py -u
+     rosrun baxter_tool tuck_arms.py -u
 
---- to tuck baxter's arms (move the arms behind baxter) 
+to tuck baxter's arms (move the arms behind baxter) 
 
-    1- rosrun baxter_tool tuck_arms.py -t
+     rosrun baxter_tool tuck_arms.py -t
     
  ??? Debug ???
  
@@ -80,14 +80,13 @@ In a window connected to Baxter,
  
  2- make sure the window you are using is connected
  
- 3- make sure the emergency button (red and yellow button connected to Baxter)
-    is released
-    
- 4- do this 
+ 3- make sure the emergency button (red and yellow button connected to Baxter) is released
+
+ 4- do this
+ 
     rosrun baxter_tools enable_robot.py -e
-    
- 5- if both are connected, restart Baxter by pressing the white power button
-    untill its OFF, then switch it ON again. 
+
+ 5- if both are connected, restart Baxter by pressing the white power button untill its OFF, then switch it ON again. 
 
 
 
@@ -112,12 +111,11 @@ don't change a lot.
 
 2- on a window that is connected to baxter run
 
----    rosrun fyp Object_finder.py 
+      rosrun fyp Object_finder.py 
 
-       drag the different bars to detect only the green objects first, then 
-       the blue objects.
-       
----    hit done
+drag the different bars to detect only the green objects first, then the blue objects.
+
+once finished hit "done" bar
 
 
 
