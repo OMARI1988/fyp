@@ -113,6 +113,7 @@ don't change a lot.
 2- on a window that is connected to baxter run
 
 ---    rosrun fyp Object_finder.py 
+
        drag the different bars to detect only the green objects first, then 
        the blue objects.
        
