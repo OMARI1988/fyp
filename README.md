@@ -64,20 +64,28 @@ To connect baxter to your laptop,
  
 In a window connected to Baxter,
  
---- to untuck baxter's arms (move the arms in front of baxter) 
+--- to untuck baxter's arms (move the arms in front of baxter)
+
     1- rosrun baxter_tool tuck_arms.py -u
 
 --- to tuck baxter's arms (move the arms behind baxter) 
+
     1- rosrun baxter_tool tuck_arms.py -t
     
  ??? Debug ???
+ 
  In case the arms don't move or you get an error, 
+ 
  1- make sure Robotics network is connected.
+ 
  2- make sure the window you are using is connected
+ 
  3- make sure the emergency button (red and yellow button connected to Baxter)
     is released
+    
  4- do this 
     rosrun baxter_tools enable_robot.py -e
+    
  5- if both are connected, restart Baxter by pressing the white power button
     untill its OFF, then switch it ON again. 
 
@@ -86,7 +94,9 @@ In a window connected to Baxter,
 #####################
 # prepare the scene #
 #####################
+
 1- set up the table
+
 2- place the A3 paper board which has 9 squares
 
 
@@ -99,10 +109,13 @@ You probably need this part only once every few hours, as long as the light
 don't change a lot. 
 
 1- place a few green block and a few blue block 
+
 2- on a window that is connected to baxter run
+
 ---    rosrun fyp Object_finder.py 
        drag the different bars to detect only the green objects first, then 
        the blue objects.
+       
 ---    hit done
 
 
@@ -114,11 +127,17 @@ don't change a lot.
 make sure to untuck Baxter arms as explained above.
 
 to start a game,
+
 1- clear the board
+
 2- run the following line on a window that is connected to baxter,
+
 ---     rosrun fyp New3DtictacBaxter.py
 
 to stop the game,
+
 ---     ctrl+c on the same window
+
 ---     if it doesn't stop use (ctrl+\)
+
 ---     if it doesn't work restart laptop
